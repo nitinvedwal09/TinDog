@@ -1,0 +1,176 @@
+body {
+  font-family: :"Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: : "Montserrat-Bold";
+}
+
+
+p {
+  color: #afafaf;
+}
+
+.big-heading {
+  color: #fff;
+  font-family: : Montserrat-black;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.secton-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+.container {
+  padding: 3% 15% 7%;
+}
+
+/*downlod button*/
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* navbar*/
+.navbar {
+  padding: 0 0 2.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+}
+
+/*title image*/
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+/*features */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.feature-title {
+  font-size: 1.8rem;
+}
+.feature-box {
+
+  padding: 5%;
+}
+
+/*icon*/
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: red;
+}
+
+/* testimonials */
+#testimonials {
+
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* press */
+#press {
+  background-color: #ef8172;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* cta secton */
+.cta-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+
+}
+
+/* footer */
+#footer {
+
+  padding: 7% 15%;
+}
+
+.footer-icon {
+  margin: 20px 10px;
+}
+
+/* media query */
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    height: 400px;
+    width: 300px;
+  }
+}
